@@ -1,0 +1,90 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.input-and-search-container {
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  height: 25px;
+  background-color: #f1f5f9;
+}
+
+.input-container {
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  background-color: transparent;
+}
+
+.react-icon {
+  color: #64748b;
+}
+
+.categories-list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.ratings-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.category-btn-name {
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  background: none;
+  border: none;
+}
+
+.active {
+  color: #0967d2;
+}
+
+.rating-and-above-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.clear-filters-btn {
+  height: 30px;
+  width: 100px;
+  background-color: transparent;
+  color: #0967d2;
+  border-radius: 6px;
+  border: 1px solid #0967d2;
+  cursor: pointer;
+  outline: none;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 16px;
+  font-weight: 700;
+}
